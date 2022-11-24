@@ -1,0 +1,41 @@
+/* use below mentioned properties to learn flexbox */
+
+.fcontainer{
+    display: flex;
+    border: 2px solid rgb(26, 4, 4);
+    padding: 5px;
+    height: 45vh;
+    /* flex-direction:column; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+}
+
+.fitem{
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(51, 175, 224);
+    border: 2px solid rgb(12, 2, 2);
+    margin:2px;
+}
+
+.item1{
+    /* order: 3; */
+    /* flex-grow: 3; */
+    /* flex-shrink: 5; */
+    /* align-self: center; */
+}
+
+.item3{
+    /* order: 4; */
+    /* flex-grow: 6; */
+}
